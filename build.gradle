@@ -41,8 +41,8 @@ buildscript {
             gradle            : '3.5.3',
 
             // Virgil
-            virgilSdk         : '7.2.0',
-            virgilCrypto      : '0.14.0',
+            virgilSdk         : '7.3.0',
+            virgilCrypto      : '0.15.1',
 
             // Serializer
             gson              : '2.8.6',
@@ -88,9 +88,10 @@ allprojects {
         google()
         jcenter()
         mavenCentral()
+        mavenLocal()
     }
 }
 
 subprojects {
-    version = '0.3.5'
+    version = '0.3.6'
 }
